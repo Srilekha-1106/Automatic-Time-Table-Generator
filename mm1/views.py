@@ -1,9 +1,11 @@
+import datetime
 from django.shortcuts import render, redirect
-from django.http import HttpResponse
+from django.http import HttpResponse, response
+from django.template.loader import get_template
 from .models import *
 import random as rnd
 from. forms import *
-
+from django.views.generic import View
 
 POPULATION_SIZE = 15
 NUMB_OF_ELITE_SCHEDULES = 1
@@ -522,7 +524,4 @@ def delete_section(request, pk):
     if request.method == 'POST':
         sec.delete()
         return redirect('editsection')
-
-
-
 

@@ -23,5 +23,4 @@ urlpatterns = [
     path('add_section/', views.add_section, name='addsection'),
     path('section_list/', views.section_list, name='editsection'),
     path('delete_section/<str:pk>/', views.delete_section, name='deletesection'),
-
 ]
