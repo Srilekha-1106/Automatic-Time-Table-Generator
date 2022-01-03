@@ -1259,3 +1259,7 @@ fieldset .button1{
     margin-left: auto;
     margin-right: auto;
 }
+
+.bodyPad{
+	padding-bottom: 6%;
+}

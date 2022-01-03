@@ -3,7 +3,7 @@
 {% load static %}
 <body>
   
-<section class = "body1" id = "time-tables">
+<section class = "body1 bodyPad" id = "time-tables">
 
 {% for section,sectimetable in schedule.items %}
 <h2 class="secHead">{{ section }}</h2>
@@ -36,9 +36,7 @@
 <br />
 {% endfor %}
 <!-- <input type="button" class = "button" id="btnExport" value="print" /> -->
-<div>
   <button class = "button" id="btnExport" onclick="">print</button>
-</div>
 
 </section>
 <!----------------------- JQuery----------------------------->
