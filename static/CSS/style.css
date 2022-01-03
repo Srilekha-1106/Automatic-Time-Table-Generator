@@ -87,6 +87,7 @@ nav a:hover
 	color: #000;
 	background-color: #fff;
 	border-radius: 4px;
+	font-size: 15px;
 	font-weight: bold;
 }
 .navbar{
@@ -1261,5 +1262,5 @@ fieldset .button1{
 }
 
 .bodyPad{
-	padding-bottom: 6%;
+	padding-bottom: 5%;
 }
