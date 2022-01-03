@@ -1137,10 +1137,13 @@ fieldset .button1{
 
   .secHead{
 	margin-top: 30px;
-	margin-bottom: 10px;
-	margin-left: 10px;
-	color:#257a7a;
+	margin-bottom: 15px;
+	margin-right: 17px;
+	margin-left: 17px;
+	text-align: center;
+	color:#fff;
 	font-size: 1.8rem;
+	font-weight: 300;
 }
 
  th,td{
@@ -1150,9 +1153,10 @@ fieldset .button1{
  
   .content-table {
 	  border-collapse: collapse;
-	  margin-left: 10px;
-	  margin-right: 10px;
+	  margin-left: 15px;
+	  margin-right: 15px;
 	  margin-bottom: 10px;
+	  margin-top: 25px;
 	  font-size: 0.9em;
 	  min-width: 400px;
   }
@@ -1177,6 +1181,10 @@ fieldset .button1{
 	  background-color: #f3f3f3;
   }
 
+  .content-table tbody tr:nth-of-type(odd){
+	background-color: #fff;
+}
+
   .content-table tbody th {
 	  background-color: #009879;
 	  color: #ffffff;
@@ -1186,13 +1194,17 @@ fieldset .button1{
 	  text-align: center;
   }
 
-  .days{
+  /* .days{
 	  text-align: left;
-  }
-  .body1{
-	  /* margin-top: 10%; */
+  } */
+  /* .body1{
 	  padding-top:7%;
-  }
+	  margin-top: 0px;
+	  background: #fff center/cover url("../img/bgt1.jpg") no-repeat;
+	  height:auto;
+	  width:auto;
+	  padding-top: 100px;
+  } */
 
   .class2{
 	  margin: 10px;
@@ -1203,3 +1215,47 @@ fieldset .button1{
 	  color: #ffffff;
 	  text-align: center;
   } */
+
+
+  .body1{
+	margin-top: 0px;
+	/* background: center/cover url("../img/miniproj.jpg") no-repeat;
+	height:auto;
+	width:auto;
+	padding-top: 100px;
+	background-size: cover;
+    text-align: center;
+    position: relative;
+    background-attachment: fixed; */
+	padding-top:7%;
+	background: url("../img/bgt1.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	padding-bottom: 150px;
+}
+.body2{
+	margin-top: 0px;
+	/* background: center/cover url("../img/miniproj.jpg") no-repeat;
+	height:auto;
+	width:auto;
+	padding-top: 100px;
+	background-size: cover;
+    text-align: center;
+    position: relative;
+    background-attachment: fixed; */
+	padding-top:7%;
+	background: url("../img/bgtt2.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	padding-bottom: 150px;
+}
+
+.body1 .button{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
